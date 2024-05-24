@@ -1,0 +1,118 @@
+*{
+margin: 0px;
+padding: 0px;
+font-family: cursive;
+text-decoration: none;
+}
+
+
+.first
+{
+height: 100vh;
+width: 100%;
+background-image: linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50)),url(back.jpg);
+background-position:center; 
+background-size:cover; 
+}
+
+
+.topbar
+{
+width: 1000px;
+height: 100%;
+background-image:linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75));
+position: fixed;
+}
+
+.gap{
+height: 30px
+}
+
+.second
+{
+margin-left: 20px;
+}
+
+.logo{
+font-family: Copperplate Gothic; 
+color: white;
+}
+
+.home
+{
+margin-top: 100px;
+border: 2px solid white;
+border-radius: 20px;
+padding: 5px;
+transition: 0.3s;
+}
+
+.donation
+{
+margin-top:40px;
+border: 2px solid white;
+border-radius: 20px;
+padding: 5px;
+transition: 0.3s;
+}
+
+
+.aboutus
+{
+margin-top: 40px;
+border: 2px solid white;
+border-radius: 20px;
+padding: 5px;
+transition: 0.3s;
+}
+
+
+.blog
+{
+margin-top: 40px;
+border: 2px solid white; 
+padding:5px;
+border-radius:20px;
+transition: 0.3s; 
+}
+
+.third
+{
+height: 100vh;
+width: 100%;
+background-image:url(bg2.jpg);
+background-size:cover; 
+background-position:center; 
+}
+
+.middle
+ {
+ margin-left: 31px;
+ align-items: center;
+}
+
+
+.home:hover
+{
+background-image: linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.0)),url(skin.jpg);
+background-position:center; 
+background-size:cover; 
+}
+
+.donation:hover
+{
+background-image:linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.0)),url(skin.jpg);
+background-position:center; 
+background-size:cover
+}
+
+.aboutus:hover
+{
+background-image:linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.0)),url(skin.jpg);
+background-position:center; 
+background-size:cover
+}
+
+.blog:hover
+{background-image:linear-gradient(rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.0)),url(skin.jpg);
+background-position:center; background-size:cover}
